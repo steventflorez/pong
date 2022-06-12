@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <script type="module" src="/js/main.js"></script>
+    <title>Pong</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body, html{
+            height: 100%;
+            background: #000;
+        }
+        #ball{
+            width: 20px;
+            height: 20px;
+            background: #000;
+            position:absolute;
+            left:10px;
+            top:0px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+
+        .bar{
+            width: 20px;
+            height: 100px;
+            background: #000;
+            border: 2px solid #fff;
+        }
+
+        #bar1{
+            top: 20px;
+            float: left; 
+            position: absolute;
+        }
+        #bar2{
+            top: 20px;
+            right:0px;
+            position: absolute;
+        }
+        #line{
+            width:50%;
+            border-right: #fff dashed 5px;
+            height: 100%;  
+        }
+    </style>
+</head>
+<body>
+    <div id="ball"></div>
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="line"></div>
+</body>
+
+</html>
